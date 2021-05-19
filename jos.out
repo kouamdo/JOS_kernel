@@ -1,0 +1,33 @@
+*** Now run 'make gdb'.
+***
+c[?7l[2J[0mSeaBIOS (version 1.14.0-2)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+07F8F4C0+07ECF4C0 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..6828 decimal is 15254 octal!
+entering test_backtrace 5
+entering test_backtrace 4
+entering test_backtrace 3
+entering test_backtrace 2
+entering test_backtrace 1
+entering test_backtrace 0
+ebp f010ff08 eip f01000a1 test_backtrace:F(0,1)=(0,1) 
+ebp f010ff28 eip f0100076 test_backtrace:F(0,1)=(0,1) 
+ebp f010ff48 eip f0100076 test_backtrace:F(0,1)=(0,1) 
+ebp f010ff68 eip f0100076 test_backtrace:F(0,1)=(0,1) 
+ebp f010ff88 eip f0100076 test_backtrace:F(0,1)=(0,1) 
+ebp f010ffa8 eip f0100076 i386_init:F(0,1) 
+ebp f010ffc8 eip f01000f4 <unknown> 
+ebp f010fff8 eip f010003e <unknown> 
+leaving test_backtrace 0
+leaving test_backtrace 1
+leaving test_backtrace 2
+leaving test_backtrace 3
+leaving test_backtrace 4
+leaving test_backtrace 5
+He110 WorldWelcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+qemu-system-i386: terminating on signal 15 from pid 116698 (make)
